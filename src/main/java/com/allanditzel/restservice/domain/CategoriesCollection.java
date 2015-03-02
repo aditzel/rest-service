@@ -1,4 +1,6 @@
 package com.allanditzel.restservice.domain;
 
-public class CategoriesCollection {
+import org.springframework.hateoas.ResourceSupport;
+
+public class CategoriesCollection extends ResourceSupport {
 }
