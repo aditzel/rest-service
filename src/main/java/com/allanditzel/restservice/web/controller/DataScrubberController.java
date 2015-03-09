@@ -19,7 +19,7 @@ public class DataScrubberController {
     @Autowired
     private CategoryManager categoryManager;
 
-    @RequestMapping(value = "/dataVerifier", method = RequestMethod.POST)
+    @RequestMapping(value = "/dataScrubber", method = RequestMethod.POST)
     public @ResponseBody
     SubmittedDataResult scrubData(@RequestBody SubmittedData submittedData) {
         Set<CategoryToSubcategoryMapping> uniqueCategoriesToSubcategories = new LinkedHashSet<>();
