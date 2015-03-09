@@ -1,42 +1,77 @@
 [
 	{
-		"category": "PERSON",
-		"subcategory": "Bob Jones"
+      "category": {
+        "name": "PERSON"
+      },
+      "subcategory": {
+        "name": "Bob Jones"
+      }
  	},
 	{
-		"category": "PLACE",
-		"subcategory": "Washington"
+		"category": {
+          "name": "PLACE"
+        },
+		"subcategory": {
+          "name": "Washington"
+        }
+ 	},	{
+      "category": {
+        "name": "PERSON"
+      },
+      "subcategory": {
+        "name": "Mary"
+      }
  	},
 	{
-		"category": "PERSON",
-		"subcategory": "Mary"
+		"category": {
+          "name": "COMPUTER"
+        },
+		"subcategory": {
+          "name": "Mac"
+        }
+ 	},	{
+      "category": {
+        "name": "PERSON"
+      },
+      "subcategory": {
+        "name": "Bob Jones"
+      }
  	},
 	{
-		"category": "COMPUTER",
-		"subcategory": "Mac"
+		"category": {
+          "name": "OTHER"
+        },
+		"subcategory": {
+          "name": "Tree"
+        }
+ 	},	{
+      "category": {
+        "name": "ANIMAL"
+      },
+      "subcategory": {
+        "name": "Dog"
+      }
  	},
 	{
-		"category": "PERSON",
-		"subcategory": "Bob Jones"
- 	},
-	{
-		"category": "OTHER",
-		"subcategory": "Tree"
- 	},
-	{
-		"category": "ANIMAL",
-		"subcategory": "Dog"
- 	},
-	{
-		"category": "PLACE",
-		"subcategory": "Texas"
- 	},
-	{
-		"category": "FOOD",
-		"subcategory": "Steak"
- 	},
-	{
-		"category": "ANIMAL",
-		"subcategory": "Cat"
+		"category": {
+          "name": "PLACE"
+        },
+		"subcategory": {
+          "name": "Texas"
+        }
+ 	},	{
+		"category": {
+          "name": "FOOD"
+        },
+		"subcategory": {
+          "name": "Steak"
+        }
+ 	},	{
+		"category": {
+          "name": "ANIMAL"
+        },
+		"subcategory": {
+          "name": "Cat"
+        }
  	}
 ]

@@ -4,23 +4,19 @@ import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 /**
- * Domain object representing a category.
+ * Domain object representing a subcategory in the system.
  */
-public class Category {
-	private String name;
+public class Subcategory {
+    private String name;
 
-	@JsonCreator
-	public Category(@JsonProperty("name") String name) {
-		this.name = name;
-	}
-
-    public Category(Category category) {
-        this.name = category.name.toUpperCase();
+    @JsonCreator
+    public Subcategory(@JsonProperty("name") String name) {
+        this.name = name;
     }
 
-	public String getName() {
-		return name;
-	}
+    public String getName() {
+        return name;
+    }
 
     @Override
     public boolean equals(Object o) {
@@ -32,9 +28,9 @@ public class Category {
             return false;
         }
 
-        Category category = (Category) o;
+        Subcategory that = (Subcategory) o;
 
-        if (!name.equals(category.name)) {
+        if (!name.equals(that.name)) {
             return false;
         }
 
