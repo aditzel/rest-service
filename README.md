@@ -41,9 +41,10 @@ In order to add a new category you can send an HTTP POST request to
 
 With a body of:
 
-```{
+```
+{
     "name": "new category name"
-    }
+}
 ```
 
 Should you need to view an individual category you can access:
