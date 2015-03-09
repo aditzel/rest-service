@@ -33,11 +33,11 @@ There is a sample json file as per the assignment in ```src/test/resources/sampl
 
 In order to view the list of available categories point the browser to:
 
-```http://localhost:8080/categories```
+http://localhost:8080/categories
 
 In order to add a new category you can send an HTTP POST request to 
 
-```http://localhost:8080/categories```
+http://localhost:8080/categories
 
 With a body of:
 
@@ -49,13 +49,13 @@ With a body of:
 
 Should you need to view an individual category you can access:
 
-```http://localhost:8080/categories/{name}``` 
+http://localhost:8080/categories/{name}
 
 Where {name} is the name of the category you'd like to retrieve.
 
 In order to scrub the data send an HTTP POST request to:
 
-```http://localhost:8080/dataScrubber``` with a JSON payload as per the example file specified above.
+http://localhost:8080/dataScrubber with a JSON payload as per the example file specified above.
 
 The output will be JSON. An example of output based on the sample file specified above is:
 
