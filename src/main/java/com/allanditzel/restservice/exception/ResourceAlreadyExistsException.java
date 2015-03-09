@@ -4,7 +4,8 @@ import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;
 
 /**
- * Created by User on 3/7/2015.
+ Business level exception to signify that there is already a resource of this same type
+ present in the system.
  */
 @ResponseStatus(HttpStatus.CONFLICT)
 public class ResourceAlreadyExistsException extends RuntimeException {
